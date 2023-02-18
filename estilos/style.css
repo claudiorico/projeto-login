@@ -94,6 +94,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    outline: none;
 
     transform: translateY(-13px);
 }
