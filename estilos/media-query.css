@@ -8,8 +8,8 @@
 /* Declarações paisagem */
 @media screen and (orientation:landscape) {
     section#login {
-        width: 70vw;
-        height: 50vh;
+        width: 80vw;
+        height: 60vh;
 
     }
     section#login>div#imagem {
@@ -33,6 +33,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -46,6 +47,10 @@
         float: right;
         width: 65%;
     }
+
+    div.campo > input {
+        transform: translateY(-12px);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -55,6 +60,7 @@
     }
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -74,6 +80,7 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 15px 0px;
     }
 
 }
